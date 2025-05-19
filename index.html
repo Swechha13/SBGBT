@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SBGBT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+  <!-- Top Bar -->
+  <header class="top-bar py-1 bg-dark">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Email & Phone -->
+        <div class="col-md-6 d-flex flex-wrap align-items-center gap-4 ps-3">
+          <a href="mailto:sbgbteam@gmail.com" class="text-white d-flex align-items-center">
+            <i class="fas fa-envelope me-2 contact-icon"></i>
+            <span class="fw-medium contact-text">sbgbteam@gmail.com</span>
+          </a>
+
+          <a href="tel:+919314408808" class="text-white d-flex align-items-center">
+            <i class="fas fa-phone me-2 contact-icon"></i>
+            <span class="fw-medium">+91 9314408808</span>
+          </a>
+        </div>
+
+        <!--Language switch & Social Links -->
+        <div class="col-md-6 d-flex justify-content-end align-items-center pe-3">
+          <!-- Language dropdown -->
+          <div class="dropdown me-3">
+            <button class="btn btn-outline-light btn-sm rounded-5 dropdown-toggle"type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            भाषा बदलें
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">हिंदी</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+            </ul>
+          </div>
+
+          <!-- Social icons -->
+          <div class="d-flex gap-2 social-icons">
+            <a href="#" class="text-white"><img src="images/social-icon/fb.png" alt=""></a>
+            <a href="#" class="text-white"><img src="images/social-icon/twitter.png" alt=""></a>
+            <a href="#" class="text-white"><img src="images/social-icon/youtube.png" alt=""></a>
+            <a href="#" class="text-white"><img src="images/social-icon/blogger.png" alt=""></a>
+            <a href="#" class="text-white"><img src="images/social-icon/instagram.png" alt=""></a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <header class="sbgbt-header py-2">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center">
+        <img src="images/logo.png" alt="SBGBT Logo" class="sbgbt-logo me-2">
+        <span class="fw-bold company-name">SBGBT</span>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <a href="admit-card.html" class="btn btn-sm rounded-5 fw-bold p-2 sbgbt-header-btn">ADMIT CARD</a>
+        <a href="membership.html" class="btn btn-sm rounded-5 fw-bold p-2 sbgbt-header-btn">SBGBT सदस्य बने</a>
+        <button class="btn btn-sm rounded-5 text-white p-2 donate-btn">
+          <a href="#"><img src="images/donate-icon.png" alt="donate-icon"></a> <span class="fw-bold donate-text text-white">दान करे</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg bg-white ">
+  <div class="container">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active custom-active" aria-current="page" href="#">होम</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#">हमारे बारे में</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#"> हमारे कार्य </a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#">सफलता की कहानी</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#">उत्थान पत्रिका</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#">गैलरी</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          मीडिया कॉर्नर
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">समाचार</a></li>
+          <li><a class="dropdown-item" href="#">वीडियो</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="btn btn-sm me-2 rounded-5 text-white px-4 contact-btn" href="#">संपर्क</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="btn btn-sm me-2 dropdown-toggle px-3 rounded-5 nav-bordered" href="#" data-bs-toggle="dropdown">रजिस्ट्रेशन</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">New</a></li>
+          <li><a class="dropdown-item" href="#">Status</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="btn btn-sm me-2 dropdown-toggle px-3 rounded-5 nav-bordered" href="#" data-bs-toggle="dropdown">लॉगिन करें</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">User</a></li>
+          <li><a class="dropdown-item" href="#">Admin</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner/banner.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+
+  <div class="wrapper container">
+    <div class="card" style="background-color: #FFEDEE;">
+      <div class="d-flex flex-md-row align-items-center justify-content-between">
+        <div class="flex-grow-1 card-content">
+          <h4 class=" fw-bold mb-3" style="color:#FF543E">जन जागरूकता</h4>
+          <div class="mb-4 d-flex">
+            <span class="btn tag-btn fw-bold">सोच बदलो गांव बदलो यात्रा</span>
+            <span class="btn tag-btn fw-bold">जागरूकता प्रशिक्षण कार्यक्रम</span>
+          </div>
+          <p class="text-muted card-pera fw-medium mb-3">
+            इसके अंतर्गत टीम सरकारी योजनाओं (केंद्र /राज्य /नाबार्ड ) की जानकारी लोगों तक पहुंचाने और उनके लाभ लाभार्थियों तक पहुँचाने में सरकारी एजेंसीज का सहयोग करना| स्वयं सहायता समूह , किसान समूह ,महिला मंडल , युवा संगठन एवं चौपाल जैसी संगठनों को स्थापित करके लोगों को नियमित रूप...
+          </p>
+          <a href="#" class="btn btn-dark btn-sm rounded-2">अधिक देखें →</a>
+        </div>
+        <img src="images/cards-img/card1-img.png" alt="जन जागरूकता चित्र" class="card-img ms-md-4 ">
+      </div>
+    </div>
+
+    <div class="card" style="background-color: #DBF6FF;">
+      <div class="d-flex flex-md-row align-items-center justify-content-between">
+        <div class="flex-grow-1 card-content">
+          <h4 class=" fw-bold mb-3" style="color:#093F68">ग्रामीण शिक्षा सबलीकरण</h4>
+          <div class="mb-4 d-flex">
+            <span class="btn tag-btn fw-bold">शिक्षा पाओ-ज्ञान बढ़ाओ प्रतियोगिता</span>
+            <span class="btn tag-btn fw-bold">प्रतिभा सम्मान समागम</span>
+            <span class="btn tag-btn fw-bold">आओ पढ़ें-आगे बढ़ें कार्यक्रम</span>
+          </div>
+          <p class="text-muted card-pera fw-medium mb-3">
+            सोच बदलो गांव बदलो संस्था द्वारा ग्रामीण प्रतिभाओं को निखारने, उनको प्रोत्साहित करने उनका मार्गदर्शन करने और गरीब और जरूरतमंद विद्यार्थियों को आर्थिक सहयोग प्रदान करने के उद्देश्य से इस प्रतियोगिता का आयोजन किया जाता है। ग्रामीण बच्चों में स्वस्थ प्रतिस्पर्धा और...
+          </p>
+          <a href="#" class="btn btn-dark btn-sm rounded-2">अधिक देखें →</a>
+        </div>
+        <img src="images/cards-img/card1-img.png" alt="जन जागरूकता चित्र" class="card-img ms-md-4 ">
+      </div>
+    </div>
+
+    <div class="card" style="background-color: #F5FFE9;">
+      <div class="d-flex flex-md-row align-items-center justify-content-between">
+        <div class="flex-grow-1 card-content">
+          <h4 class=" fw-bold mb-3" style="color:#6CAF16">SBGBT उत्थान संकल्पना</h4>
+          <div class="mb-4 d-flex">
+            <span class="btn tag-btn fw-bold">सोच बदलो गांव बदलो यात्रा</span>
+            <span class="btn tag-btn fw-bold">जागरूकता प्रशिक्षण कार्यक्रम</span>
+          </div>
+          <p class="text-muted card-pera fw-medium mb-3">
+            इसके अंतर्गत टीम सरकारी योजनाओं (केंद्र /राज्य /नाबार्ड ) की जानकारी लोगों तक पहुंचाने और उनके लाभ लाभार्थियों तक पहुँचाने में सरकारी एजेंसीज का सहयोग करना| स्वयं सहायता समूह , किसान समूह ,महिला मंडल , युवा संगठन एवं चौपाल जैसी संगठनों को स्थापित करके लोगों को नियमित रूप...
+          </p>
+          <a href="#" class="btn btn-dark btn-sm rounded-2">अधिक देखें →</a>
+        </div>
+        <img src="images/cards-img/card1-img.png" alt="जन जागरूकता चित्र" class="card-img ms-md-4 ">
+      </div>
+    </div>
+
+    <div class="card" style="background-color: #FEF0FF;">
+      <div class="d-flex flex-md-row align-items-center justify-content-between">
+        <div class="flex-grow-1 card-content">
+          <h4 class=" fw-bold mb-3" style="color:#A302B2">महिला सशक्तिकरण</h4>
+          <div class="mb-4 d-flex">
+            <span class="btn tag-btn fw-bold">सोच बदलो गांव बदलो यात्रा</span>
+            <span class="btn tag-btn fw-bold">जागरूकता प्रशिक्षण कार्यक्रम</span>
+          </div>
+          <p class="text-muted card-pera fw-medium mb-3">
+            इसके अंतर्गत टीम सरकारी योजनाओं (केंद्र /राज्य /नाबार्ड ) की जानकारी लोगों तक पहुंचाने और उनके लाभ लाभार्थियों तक पहुँचाने में सरकारी एजेंसीज का सहयोग करना| स्वयं सहायता समूह , किसान समूह ,महिला मंडल , युवा संगठन एवं चौपाल जैसी संगठनों को स्थापित करके लोगों को नियमित रूप...
+          </p>
+          <a href="#" class="btn btn-dark btn-sm rounded-2">अधिक देखें →</a>
+        </div>
+        <img src="images/cards-img/card1-img.png" alt="जन जागरूकता चित्र" class="card-img ms-md-4 ">
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  
+  </div>
+  
+    
+   
+
+
+    
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+          
+</body>
+</html>
