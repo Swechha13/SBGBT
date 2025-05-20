@@ -53,6 +53,10 @@ body {
 .donate-btn:hover {
   background-color: #F27277;                    
 }
+.donate-btn img {
+  vertical-align: middle;
+  height: 16px;
+}
 .navbar-nav .nav-link {
   font-weight: 600;
   color: #000;
@@ -99,15 +103,31 @@ body {
 .card {
   top: 30px;
   position: sticky;
-  border: 1px solid #fce0e0;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   background-color: white;
-  color: #333;
   padding: 40px;
   border-radius: 30px;
   margin-bottom: 20px;
 
-  .tag-btn {
+  background-image: 
+    linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.1) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.1) 75%);
+  background-size: 10px 10px;
+  /* background-color: #f8f8f8; */
+
+  border: none;
+}
+
+.card-img {
+  width: 270px;
+  height: 250px;
+}
+
+.card-content{
+  max-width: 650px;
+}
+.tag-btn {
   background-color: #FFD7D8; 
   color: #2c2c2c; 
   border: 1px solid #FFA6A6; 
@@ -117,21 +137,31 @@ body {
   font-weight: 500;
   margin-right: 10px;
   white-space: nowrap;
-  }
-  .tag-btn:nth-child(3) {
+}
+.card:nth-of-type(2) .tag-btn {
   background-color: #B2DEFF; 
   border: 1px solid #55B5FF;
 }
+.card:nth-of-type(3) .tag-btn {
+  background-color: #E3FFC0; 
+  border: 1px solid #8BEF14;
+}
+.card:nth-of-type(4) .tag-btn {
+  background-color: #FCD0FF; 
+  border: 1px solid #D685DB;
+}
+.carousel-control-next-icon {
+    background-color: #FFBC0E;
+    border-radius: 50px;
+} 
+.carousel-control-prev-icon{
+  background-color: #0e7f81;
+  border-radius: 50px;
+}
   
-}
 
-.card-img{
-  width: 270px;
-  height: 250px;
-}
-.card-content{
-  max-width: 650px;
-}
+
+
 
 
 
